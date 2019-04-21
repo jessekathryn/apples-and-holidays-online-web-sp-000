@@ -60,6 +60,8 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.find_all do |holiday, supplies|
      if supplies.include?("BBQ")
       holiday
+    else 
+      nil
    end
   end
  end
